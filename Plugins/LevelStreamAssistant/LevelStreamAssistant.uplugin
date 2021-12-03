@@ -1,0 +1,57 @@
+{
+	"FileVersion": 3,
+	"Version": 3,
+	"VersionName": "1.2.3",
+	"FriendlyName": "Level Stream Assistant",
+	"Description": "This plugin will help you to set up a level streaming for your game quickly. it works with engine's built-in level streaming volumes as well as provided level streaming triggers.",
+	"Category": "Level Streaming",
+	"CreatedBy": "Bonus Frames Studio",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c4366372005045feba0bf3560f84fea7",
+	"SupportURL": "",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "LevelStreamAssistant",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Mac"
+			]
+		},
+		{
+			"Name": "LevelStreamAssistantTrigger",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Mac",
+				"Android"
+			]
+		},
+		{
+			"Name": "LevelStreamAssistantTriggerEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Mac"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "AssetManagerEditor",
+			"Enabled": true,
+			"Optional": true
+		}
+	]
+}
